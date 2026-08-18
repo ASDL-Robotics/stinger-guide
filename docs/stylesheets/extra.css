@@ -25,6 +25,7 @@
 [class*="md-button"].md-button--primary:hover {
   background-color: #8F713D !important;
   color: #FFFFFF !important;
+  border-color: #8F713D !important;
 }
 
 /* All Secondary / Outline Buttons Everywhere */
@@ -35,6 +36,6 @@
 }
 
 [class*="md-button"]:not(.md-button--primary):hover {
-  background-color: #003D69 !important;
+  background-color: #051E39 !important;
   color: #FFFFFF !important;
 }
