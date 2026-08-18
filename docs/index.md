@@ -1,10 +1,10 @@
 ---
-title: Welcome to Robot Assembly Manual
+title: Welcome!
 ---
 
-# Open-Source Robotics Assembly Manuals
+# The Stinger Tug
 
-Step-by-step, iFixit-style build guides for hardware, electronics, and software integration.
+The build guide.
 
 [Browse Tutorials :arrow_right:](tutorials/index.md){ .md-button .md-button--primary }
 [View on GitHub](https://github.com/your-username/your-repo){ .md-button }
@@ -13,19 +13,19 @@ Step-by-step, iFixit-style build guides for hardware, electronics, and software 
 
 <div class="grid cards" markdown>
 
--   :hammer_and_wrench: **Modular Hardware**
+-   **Hardware**
 
     ---
 
     Detailed mechanical assembly steps with complete BOM lists, required tools, and torque specs.
 
--   :electric_plug: **Wiring & Electronics**
+-   **Wiring & Electronics**
 
     ---
 
     Clear schematics, pinout diagrams, and cable routing guides to protect sensitive electronics.
 
--   :laptop: **Software Setup**
+-   **Software Setup**
 
     ---
 
