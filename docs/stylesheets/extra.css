@@ -17,15 +17,14 @@
 
 /* All Primary (Filled) Buttons Everywhere */
 [class*="md-button"].md-button--primary {
-  background-color: #051E39 !important;
-  color: #FFFFFF !important;
-  border-color: #051E39 !important;
-}
-
-[class*="md-button"].md-button--primary:hover {
   background-color: #B39051 !important;
   color: #FFFFFF !important;
   border-color: #B39051 !important;
+}
+
+[class*="md-button"].md-button--primary:hover {
+  background-color: #8F713D !important;
+  color: #FFFFFF !important;
 }
 
 /* All Secondary / Outline Buttons Everywhere */
@@ -36,6 +35,6 @@
 }
 
 [class*="md-button"]:not(.md-button--primary):hover {
-  background-color: #051E39 !important;
+  background-color: #003D69 !important;
   color: #FFFFFF !important;
 }
