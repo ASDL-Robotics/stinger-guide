@@ -1,9 +1,21 @@
-[data-md-color-primary="custom"] {
-  --md-primary-fg-color:        #B39051; /* Gold Header */
-  --md-primary-fg-color--light: #C4A467;
-  --md-primary-fg-color--dark:  #98773C;
+:root {
+  /* Header Bar */
+  --md-primary-fg-color:        #B39051 !important;
+  --md-primary-fg-color--light: #C4A467 !important;
+  --md-primary-fg-color--dark:  #98773C !important;
+
+  /* Links & Accents */
+  --md-accent-fg-color:        #051E39 !important;
+  --md-typeset-a-color:        #051E39 !important;
 }
 
-[data-md-color-accent="custom"] {
-  --md-accent-fg-color:        #051E39; /* Deep Navy Links & Accents */
+/* Hard override for top header bar */
+.md-header,
+.md-tabs {
+  background-color: #B39051 !important;
+}
+
+/* Hard override for link hovers */
+.md-typeset a:hover {
+  color: #051E39 !important;
 }
