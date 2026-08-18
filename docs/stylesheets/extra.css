@@ -15,56 +15,27 @@
   background-color: #B39051 !important;
 }
 
-/* Hero Landing Page Buttons (Default/Outline State) */
-.mdx-hero .md-button {
-  color: #051E39 !important;
-  background-color: #FFFFFF !important;
-  border-color: #051E39 !important;
-}
-
-.mdx-hero .md-button:hover {
-  background-color: #051E39 !important;
-  color: #FFFFFF !important;
-}
-
-/* Hero Landing Page Primary Button (Filled State) */
-.mdx-hero .md-button--primary {
+/* All Primary (Filled) Buttons Everywhere */
+[class*="md-button"].md-button--primary {
   background-color: #051E39 !important;
   color: #FFFFFF !important;
   border-color: #051E39 !important;
 }
 
-.mdx-hero .md-button--primary:hover {
+[class*="md-button"].md-button--primary:hover {
   background-color: #B39051 !important;
   color: #FFFFFF !important;
   border-color: #B39051 !important;
 }
 
-/* Hard override for link hovers */
-.md-typeset a:hover {
+/* All Secondary / Outline Buttons Everywhere */
+[class*="md-button"]:not(.md-button--primary) {
+  background-color: transparent !important;
   color: #051E39 !important;
-}
-
-/* Primary Buttons (Filled) */
-.md-typeset .md-button--primary {
-  background-color: #051E39 !important; /* Button Background */
-  color: #FFFFFF !important;           /* Button Text */
-  border-color: #051E39 !important;     /* Button Border */
-}
-
-.md-typeset .md-button--primary:hover {
-  background-color: #B39051 !important; /* Hover Background */
-  color: #FFFFFF !important;           /* Hover Text */
-  border-color: #B39051 !important;     /* Hover Border */
-}
-
-/* Standard / Outline Buttons */
-.md-typeset .md-button {
-  color: #051E39 !important;           /* Text & Outline Color */
   border-color: #051E39 !important;
 }
 
-.md-typeset .md-button:hover {
-  background-color: #051E39 !important; /* Hover Fill */
-  color: #FFFFFF !important;           /* Hover Text */
+[class*="md-button"]:not(.md-button--primary):hover {
+  background-color: #051E39 !important;
+  color: #FFFFFF !important;
 }
