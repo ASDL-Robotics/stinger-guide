@@ -19,3 +19,27 @@
 .md-typeset a:hover {
   color: #051E39 !important;
 }
+
+/* Primary Buttons (Filled) */
+.md-typeset .md-button--primary {
+  background-color: #051E39 !important; /* Button Background */
+  color: #FFFFFF !important;           /* Button Text */
+  border-color: #051E39 !important;     /* Button Border */
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #B39051 !important; /* Hover Background */
+  color: #FFFFFF !important;           /* Hover Text */
+  border-color: #B39051 !important;     /* Hover Border */
+}
+
+/* Standard / Outline Buttons */
+.md-typeset .md-button {
+  color: #051E39 !important;           /* Text & Outline Color */
+  border-color: #051E39 !important;
+}
+
+.md-typeset .md-button:hover {
+  background-color: #051E39 !important; /* Hover Fill */
+  color: #FFFFFF !important;           /* Hover Text */
+}
