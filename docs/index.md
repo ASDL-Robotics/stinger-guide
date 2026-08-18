@@ -1,32 +1,35 @@
-# Base Chassis Assembly
+---
+template: home.html
+title: Welcome to Robot Assembly Manual
+---
 
-**Estimated Time:** 45 minutes | **Difficulty:** Beginner
+# Open-Source Robotics Assembly Manuals
 
-## Required Tools & Parts
+Step-by-step, iFixit-style build guides for hardware, electronics, and software integration.
 
-| Tools | Parts |
-| :--- | :--- |
-| - #1 Phillips Screwdriver<br>- 2.5mm Allen Key | - 1x Aluminum Base Plate<br>- 4x DC Gear Motors<br>- 16x M3x8mm Screws |
+[Browse Tutorials :arrow_right:](tutorials/index.md){ .md-button .md-button--primary }
+[View on GitHub](https://github.com/your-username/your-repo){ .md-button }
 
 ---
 
-## Steps
+<div class="grid cards" markdown>
 
-### Step 1: Mount the Motors
-> **Prerequisite:** Ensure motor wires are pre-soldered to the terminals.
+-   :hammer_and_wrench: **Modular Hardware**
 
-1. Align the motor gearbox with the mounting holes on the lower side of the base plate.
-2. Insert four M3x8mm screws from the outside.
-3. Tighten securely in a cross pattern.
+    ---
 
-![Step 1 - Motor Alignment](assets/step1.jpg)
+    Detailed mechanical assembly steps with complete BOM lists, required tools, and torque specs.
 
-***
+-   :electric_plug: **Wiring & Electronics**
 
-### Step 2: Attach Wheels
-> **Warning:** Do not force the D-shaft coupler; align the flat edge carefully.
+    ---
 
-1. Slide the wheel hub over the motor output shaft.
-2. Tighten the set screw using the 2.5mm Allen key.
+    Clear schematics, pinout diagrams, and cable routing guides to protect sensitive electronics.
 
-![Step 2 - Wheel Mounting](assets/step2.jpg)
+-   :laptop: **Software Setup**
+
+    ---
+
+    First-boot scripts, container setup, and sensor integration checklists to get moving quickly.
+
+</div>
