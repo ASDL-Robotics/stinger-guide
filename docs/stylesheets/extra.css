@@ -15,6 +15,31 @@
   background-color: #B39051 !important;
 }
 
+/* Hero Landing Page Buttons (Default/Outline State) */
+.mdx-hero .md-button {
+  color: #051E39 !important;
+  background-color: #FFFFFF !important;
+  border-color: #051E39 !important;
+}
+
+.mdx-hero .md-button:hover {
+  background-color: #051E39 !important;
+  color: #FFFFFF !important;
+}
+
+/* Hero Landing Page Primary Button (Filled State) */
+.mdx-hero .md-button--primary {
+  background-color: #051E39 !important;
+  color: #FFFFFF !important;
+  border-color: #051E39 !important;
+}
+
+.mdx-hero .md-button--primary:hover {
+  background-color: #B39051 !important;
+  color: #FFFFFF !important;
+  border-color: #B39051 !important;
+}
+
 /* Hard override for link hovers */
 .md-typeset a:hover {
   color: #051E39 !important;
