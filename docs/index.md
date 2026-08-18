@@ -4,7 +4,7 @@ title: Welcome!
 
 # The Stinger Tug
 
-![Stinger Complete](/assets/images/stinger-complete.webp)
+![Stinger Complete](/stinger-guide/assets/images/stinger-complete.webp)
 
 The build guide.
 
