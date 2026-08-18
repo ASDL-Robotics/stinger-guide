@@ -4,6 +4,8 @@ title: Welcome!
 
 # The Stinger Tug
 
+![Stinger Complete](/assets/images/stinger-complete.webp)
+
 The build guide.
 
 [Browse Tutorials :arrow_right:](tutorials/index.md){ .md-button .md-button--primary }
