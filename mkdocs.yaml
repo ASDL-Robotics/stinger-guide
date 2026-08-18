@@ -3,8 +3,8 @@ theme:
   name: material
   palette:
     scheme: default
-      primary: "#B39051"  # Deep Navy Header
-      accent: "#051E39"   # Crimson Accent / Links
+    primary: "#B39051"
+    accent: "#051E39"
   features:
     - navigation.instant
     - navigation.sections
