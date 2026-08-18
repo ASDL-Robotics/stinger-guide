@@ -6,7 +6,7 @@ title: Welcome!
 
 ![Stinger Complete](/stinger-guide/assets/images/stinger-complete.webp)
 
-The build guide.
+The build guide. This website is still under construction!
 
 [Browse Tutorials :arrow_right:](tutorials/index.md){ .md-button .md-button--primary }
 [View on GitHub](https://github.com/your-username/your-repo){ .md-button }
