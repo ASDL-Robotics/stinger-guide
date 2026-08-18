@@ -1,9 +1,10 @@
-site_name: Robot Assembly Manual
+site_name: Stinger Tug Guide
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: blue
+    scheme: default
+      primary: "#B39051"  # Deep Navy Header
+      accent: "#051E39"   # Crimson Accent / Links
   features:
     - navigation.instant
     - navigation.sections
