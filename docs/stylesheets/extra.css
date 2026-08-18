@@ -1,0 +1,9 @@
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color:        #B39051; /* Gold Header */
+  --md-primary-fg-color--light: #C4A467;
+  --md-primary-fg-color--dark:  #98773C;
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color:        #051E39; /* Deep Navy Links & Accents */
+}
