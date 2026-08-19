@@ -1,8 +1,5 @@
 ---
-title: Welcome!
-hide:
-  - navigation
-  - toc
+title: Stinger Home Page
 ---
 
 <div style="
