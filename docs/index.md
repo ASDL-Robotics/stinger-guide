@@ -13,7 +13,7 @@ hide:
   color: #ffffff;
 " markdown>
 
-# Stinger Tug
+# Stinger Tug {: style="color: #ffffff !important;" }
 
 Educational Surface Vehicle
 
