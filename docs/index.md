@@ -6,7 +6,7 @@ hide:
 ---
 
 <style>
-  /* 1. Nuke top spacing on all main inner containers */
+  /* 1. Nuke padding on parent layout elements */
   .md-main__inner,
   .md-content,
   .md-content__inner {
@@ -14,16 +14,14 @@ hide:
     padding-top: 0 !important;
   }
 
-  /* 2. Prevent the first H1 from pushing down with default browser/theme margin */
-  .hero-banner h1:first-child,
-  .md-content__inner > h1:first-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+  /* 2. Hide hidden sidebar wrappers that hold top vertical space */
+  .md-sidebar {
+    display: none !important;
   }
 
-  /* 3. Hero banner flush styling */
+  /* 3. Pull hero flush against the top navigation bar */
   .hero-banner {
-    margin: 0 -0.8rem 2rem -0.8rem;
+    margin: -2rem -0.8rem 2rem -0.8rem !important;
     padding: 5rem 1.5rem;
     text-align: center;
     color: #ffffff;
@@ -34,7 +32,8 @@ hide:
 
   @media screen and (min-width: 60em) {
     .hero-banner {
-      margin: 0 -2.4rem 2.5rem -2.4rem;
+      /* On desktop, pull up higher to counter the tab bar height offset */
+      margin: -3.5rem -2.4rem 2.5rem -2.4rem !important;
       padding: 6rem 2rem;
     }
   }
@@ -42,6 +41,7 @@ hide:
   .hero-banner h1 {
     color: #ffffff !important;
     font-size: 2.2rem;
+    margin-top: 0 !important;
     margin-bottom: 0.5rem;
     border: none !important;
   }
