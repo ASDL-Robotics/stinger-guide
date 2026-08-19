@@ -5,12 +5,6 @@ hide:
   - toc
 ---
 
-<div class="hero-banner" markdown>
-
-# Stinger Tug
-
-Educational Surface Vehicle
-
 <div style="
   text-align: center;
   padding: 4rem 1.5rem;
@@ -18,6 +12,12 @@ Educational Surface Vehicle
   background: linear-gradient(rgba(5, 30, 57, 0.8), rgba(5, 30, 57, 0.9)), url('/stinger-guide/assets/images/stinger-complete.webp') center/cover no-repeat;
   color: #ffffff;
 " markdown>
+
+# Stinger Tug
+
+Educational Surface Vehicle
+
+</div>
 
 ![Stinger Complete](/stinger-guide/assets/images/stinger-complete.webp)
 
