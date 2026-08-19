@@ -1,5 +1,8 @@
 ---
 title: Welcome!
+hide:
+  - navigation
+  - toc
 ---
 
 # The Stinger Tug
