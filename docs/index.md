@@ -11,7 +11,13 @@ hide:
 
 Educational Surface Vehicle
 
-</div>
+<div style="
+  text-align: center;
+  padding: 4rem 1.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(rgba(5, 30, 57, 0.8), rgba(5, 30, 57, 0.9)), url('/stinger-guide/assets/images/stinger-complete.webp') center/cover no-repeat;
+  color: #ffffff;
+" markdown>
 
 ![Stinger Complete](/stinger-guide/assets/images/stinger-complete.webp)
 
