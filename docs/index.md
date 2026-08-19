@@ -7,20 +7,46 @@ hide:
 
 # The Stinger Tug
 
-<div style="
-  text-align: center;
-  padding: 4rem 1.5rem 5rem;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
-  background: linear-gradient(rgba(5, 30, 57, 0.75), rgba(5, 30, 57, 0.85)), url('/stinger-guide/assets/images/stinger-complete.webp') center/cover no-repeat;
-  color: #ffffff;
-" markdown>
+<style>
+  /* Negative margins pull the hero flush to the content box boundaries */
+  .hero-banner {
+    margin: -1.5rem -0.8rem 2rem -0.8rem;
+    padding: 4.5rem 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    background: 
+      linear-gradient(rgba(5, 30, 57, 0.8), rgba(5, 30, 57, 0.9)),
+      url("assets/images/stinger-complete.webp") center/cover no-repeat;
+  }
 
-<h1 style="color: #ffffff !important; font-size: 2.2rem; margin-bottom: 0.5rem;">Stinger Autonomous Marine Stack</h1>
+  /* Expand margins on tablet/desktop to match MkDocs theme padding */
+  @media screen and (min-width: 60em) {
+    .hero-banner {
+      margin: -1.5rem -2.4rem 2.5rem -2.4rem;
+      padding: 5.5rem 2rem;
+    }
+  }
 
-<p style="color: #e2e8f0; font-size: 1.1rem; max-width: 700px; margin: 0 auto 1.5rem;">
+  .hero-banner h1 {
+    color: #ffffff !important;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    border: none !important;
+  }
+
+  .hero-banner p {
+    color: #e2e8f0;
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto 1.75rem;
+  }
+</style>
+
+<div class="hero-banner" markdown>
+
+# Stinger Autonomous Marine Stack
+
 Autonomous surface and underwater vehicle software, simulation testbeds, and hardware operational guides.
-</p>
 
 [Get Started](software/index.md){ .md-button .md-button--primary }
 [View Architecture](software/index.md#software-stack-architecture){ .md-button }
