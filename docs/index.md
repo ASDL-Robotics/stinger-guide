@@ -6,9 +6,15 @@ hide:
 ---
 
 <style>
-  /* Negative margins pull the hero flush to the content box boundaries */
+  /* Remove the default top padding on the main content container */
+  .md-main__inner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
   .hero-banner {
-    margin: -1.5rem -0.8rem 2rem -0.8rem;
+    /* Set top margin to 0 now that the parent padding is removed */
+    margin: 0 -0.8rem 2rem -0.8rem;
     padding: 4.5rem 1.5rem;
     text-align: center;
     color: #ffffff;
@@ -17,10 +23,9 @@ hide:
       url("assets/images/stinger-complete.webp") center/cover no-repeat;
   }
 
-  /* Expand margins on tablet/desktop to match MkDocs theme padding */
   @media screen and (min-width: 60em) {
     .hero-banner {
-      margin: -1.5rem -2.4rem 2.5rem -2.4rem;
+      margin: 0 -2.4rem 2.5rem -2.4rem;
       padding: 5.5rem 2rem;
     }
   }
