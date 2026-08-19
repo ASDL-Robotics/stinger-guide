@@ -5,8 +5,6 @@ hide:
   - toc
 ---
 
-# The Stinger Tug
-
 <style>
   /* Negative margins pull the hero flush to the content box boundaries */
   .hero-banner {
