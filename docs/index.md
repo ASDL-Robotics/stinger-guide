@@ -6,16 +6,25 @@ hide:
 ---
 
 <style>
-  /* Remove the default top padding on the main content container */
-  .md-main__inner {
+  /* 1. Nuke top spacing on all main inner containers */
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
+  /* 2. Prevent the first H1 from pushing down with default browser/theme margin */
+  .hero-banner h1:first-child,
+  .md-content__inner > h1:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* 3. Hero banner flush styling */
   .hero-banner {
-    /* Set top margin to 0 now that the parent padding is removed */
     margin: 0 -0.8rem 2rem -0.8rem;
-    padding: 4.5rem 1.5rem;
+    padding: 5rem 1.5rem;
     text-align: center;
     color: #ffffff;
     background: 
@@ -26,7 +35,7 @@ hide:
   @media screen and (min-width: 60em) {
     .hero-banner {
       margin: 0 -2.4rem 2.5rem -2.4rem;
-      padding: 5.5rem 2rem;
+      padding: 6rem 2rem;
     }
   }
 
