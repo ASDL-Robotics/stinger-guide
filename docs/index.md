@@ -56,12 +56,9 @@ hide:
 
 <div class="hero-banner" markdown>
 
-# Stinger Autonomous Marine Stack
+# Stinger Tug
 
-Autonomous surface and underwater vehicle software, simulation testbeds, and hardware operational guides.
-
-[Get Started](software/index.md){ .md-button .md-button--primary }
-[View Architecture](software/index.md#software-stack-architecture){ .md-button }
+Educational Surface Vehicle
 
 </div>
 
