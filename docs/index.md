@@ -1,5 +1,7 @@
 ---
 title: Stinger Home Page
+hide:
+  - toc
 ---
 
 <div style="
